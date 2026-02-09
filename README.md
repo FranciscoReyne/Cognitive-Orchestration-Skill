@@ -16,6 +16,20 @@ The system is **declarative**, **governable**, and **auditable by design**, enab
 
 Rather than enforcing a fixed execution graph, the system allows agent networks to dynamically grow, fragment, merge, or reconfigure in response to context, evaluation, or internal decisions.
 
+### Manifesto
+
+- This is not a task system.
+- This is not a workflow engine.
+- This is not an agent framework.
+
+This is a **cognitive orchestration model**.
+
+Agents are persistent, authority is distributed, and structure may evolve at runtime.
+
+Orchestration is declared in natural language, not encoded in control flow.
+
+The system adapts, governs itself, and continues operating beyond results.
+
 ---
 
 ## Core Concepts
