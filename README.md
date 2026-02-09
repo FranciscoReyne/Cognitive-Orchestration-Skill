@@ -4,6 +4,9 @@
 
 A cognitive orchestration skill that enables the creation, coordination, interaction, observation, and evolution of multiple AI agents—sequentially, in parallel, and in hybrid networks—using natural language only, with distributed authority, governed observability, full traceability, and adaptive runtime behavior.
 
+## Why **“Cognitive”**
+The term cognitive highlights that agents in this system are not mere executors of tasks, but persistent reasoning entities. They can deliberate, adapt, coordinate, and evolve autonomously, while operating under governed authority and delivering results incrementally. Cognition enables distributed decision-making, dynamic interactions, structural evolution, and semantic observability.
+
 ---
 
 ## Overview
