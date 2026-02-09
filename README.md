@@ -16,6 +16,8 @@ The system is **declarative**, **governable**, and **auditable by design**, enab
 
 Rather than enforcing a fixed execution graph, the system allows agent networks to dynamically grow, fragment, merge, or reconfigure in response to context, evaluation, or internal decisions.
 
+The system is dialogic by design: cognition emerges from governed interactions among agents, not from linear instruction chains.
+
 ### Manifesto
 
 - This is not a task system.
