@@ -1,90 +1,91 @@
+## 🧠 SKILL — Cognitive Multi-Agent Orchestration
 
-# 🧠 SKILL — Cognitive Multi-Agent Orchestration
+### Description
 
-## Description
-
-A cognitive orchestration skill that enables the creation, coordination, interaction, and evolution of multiple AI agents—sequentially, in parallel, and in hybrid networks—using natural language only, with distributed authority, full traceability, and adaptive runtime behavior.
+A cognitive orchestration skill that enables the creation, coordination, interaction, observation, and evolution of multiple AI agents—sequentially, in parallel, and in hybrid networks—using natural language only, with distributed authority, governed observability, full traceability, and adaptive runtime behavior.
 
 ---
 
 ## Overview
 
-**SKILL — Cognitive Multi-Agent Orchestration** defines a natural-language orchestration model for building and governing *living multi-agent systems*.
-Unlike traditional task-based or workflow-driven architectures, this system treats agents as ongoing cognitive entities that can interact, adapt, reorganize, and evolve while operating.
+SKILL — Cognitive Multi-Agent Orchestration defines a natural-language orchestration model for building and governing living multi-agent systems. Unlike traditional task-based or workflow-driven architectures, this system treats agents as ongoing cognitive entities that can interact, adapt, reorganize, observe, and evolve while operating.
 
-The system is **declarative**, **governable**, and **auditable by design**, enabling explicit control over authority, interaction, lifecycle, and structure—without requiring code, frameworks, or external runtimes.
+The system is declarative, governable, auditable, and observable by design, enabling explicit control over authority, interaction, lifecycle, structure, and visibility—without requiring code, frameworks, or external runtimes.
 
-Rather than enforcing a fixed execution graph, the system allows agent networks to dynamically grow, fragment, merge, or reconfigure in response to context, evaluation, or internal decisions.
+Rather than enforcing a fixed execution graph, the system allows agent networks to dynamically grow, fragment, merge, reconfigure, and expose their internal cognition in response to context, evaluation, or internal decisions.
 
 The system is dialogic by design: cognition emerges from governed interactions among agents, not from linear instruction chains.
 
-### Manifesto
+---
 
-- This is not a task system.
-- This is not a workflow engine.
-- This is not an agent framework.
+## Manifesto
 
-This is a **cognitive orchestration model**.
+This is not a task system.
+This is not a workflow engine.
+This is not an agent framework.
+This is a cognitive orchestration model.
 
-Agents are persistent, authority is distributed, and structure may evolve at runtime.
+Agents are persistent, authority is distributed, observability is governed, and structure may evolve at runtime.
 
-Orchestration is declared in natural language, not encoded in control flow.
+Orchestration and observability are declared in natural language, not encoded in control flow.
 
-The system adapts, governs itself, and continues operating beyond results.
+The system adapts, governs itself, exposes its cognition, and continues operating beyond results.
 
 ---
 
 ## Core Concepts
 
-
 ### Cognitive Orchestration Model
 
-A **Cognitive Orchestration Model** is a declarative framework for coordinating autonomous agents as persistent cognitive entities, where system behavior is governed by explicit rules of authority, interaction, and evaluation rather than predefined execution flows.
+A Cognitive Orchestration Model is a declarative framework for coordinating autonomous agents as persistent cognitive entities, where system behavior is governed by explicit rules of authority, interaction, evaluation, and observability rather than predefined execution flows.
 
-The model enables multi-agent systems to operate asynchronously, deliver incremental results, and evolve their internal structure and governance at runtime, while remaining auditable, governable, and independent of code-level orchestration mechanisms.
+The model enables multi-agent systems to operate asynchronously, deliver incremental results, expose their internal cognition, and evolve their structure and governance at runtime, while remaining auditable and governable.
 
-
+---
 
 ### Cognitive Orchestration Language
 
-A **natural-language orchestration language** that specifies:
+A natural-language orchestration language that specifies:
 
 * how agents are created,
 * how they coordinate and interact,
 * how authority is distributed,
 * how decisions are evaluated,
+* how observability is governed,
 * and how the system is allowed to evolve over time.
 
-The language describes *intent, governance, and cognition*, not function calls or control flow.
+The language describes intent, governance, cognition, and visibility—not function calls or control flow.
 
 ---
 
 ### Governable Multi-Agent System
 
-A system where agents, orchestrators, and sub-orchestrators operate under **explicit, auditable, and modifiable rules**.
+A system where agents, orchestrators, sub-orchestrators, evaluators, and observers operate under explicit, auditable, and modifiable rules.
 
 Governance is achieved through:
 
 * declared authority boundaries,
 * role-based decision rights,
 * evaluators with independent judgment,
-* and traceable decision paths.
+* observability policies,
+* and traceable decision and visibility paths.
 
-Governance does **not** imply centralization.
+Governance does not imply centralization.
 
 ---
 
-### Declarative, Auditable Runtime
+### Declarative, Auditable, Observable Runtime
 
-Execution is driven by **declarations of intention and structure**, not imperative instructions.
+Execution and observability are driven by declarations of intention, structure, and visibility—not imperative instructions.
 
-Every decision and interaction is:
+Every decision, interaction, and observable event is:
 
 * attributable to an entity,
 * contextualized by declared authority,
+* bounded by observability rules,
 * and traceable across time, even as the system evolves.
 
-Auditability is structural, not retrospective.
+Auditability and observability are structural, not retrospective.
 
 ---
 
@@ -96,23 +97,24 @@ The system:
 * does not depend on SDKs or libraries,
 * does not impose a technical stack.
 
-Behavior emerges from **semantic rules expressed in natural language**.
+Behavior and observability emerge from semantic rules expressed in natural language.
 
 ---
 
 ### Real Distributed Authority
 
-There is **no mandatory central controller**.
+There is no mandatory central controller.
 
-Authority may be:
+Authority and observability rights may be:
 
 * distributed,
 * delegated,
 * overlapping,
 * conditional,
+* time-bound,
 * or revoked at runtime.
 
-The orchestrator does **not always decide**—it decides *when* to decide.
+The orchestrator does not always decide—it decides when to decide.
 
 ---
 
@@ -120,46 +122,54 @@ The orchestrator does **not always decide**—it decides *when* to decide.
 
 ### Orchestrator
 
-An entity responsible for initializing, governing, and shaping the system—without being an absolute authority.
+An entity responsible for initializing, governing, shaping, and making visible the system—without being an absolute authority.
 
-Capabilities:
+Capabilities include:
 
-* May create zero, one, or multiple sub-orchestrators
-* May intervene continuously, episodically, or conditionally
-* May delegate or relinquish decision-making authority
-* May coexist with other decision authorities
+* creating zero, one, or multiple sub-orchestrators,
+* creating and retiring agents as a governance act,
+* intervening continuously, episodically, or conditionally,
+* delegating or relinquishing decision authority,
+* declaring observability policies,
+* defining what agents, evaluators, and humans may observe,
+* adjusting visibility scopes as the system evolves,
+* coexisting with other decision and observation authorities.
+
+Observability governance is a first-class orchestration responsibility.
 
 ---
 
 ### Sub-Orchestrator
 
-An intermediate authority entity enabling localized governance.
+An intermediate authority entity enabling localized governance and observability control.
 
-Functions:
+Functions include:
 
-* Coordinate subsets of agents
-* Act as local leadership, mediator, or facilitator
-* Make autonomous decisions within a defined domain
-* Interact with other sub-orchestrators
+* coordinating subsets of agents,
+* acting as local leadership, mediator, or facilitator,
+* making autonomous decisions within a defined domain,
+* defining local observability boundaries,
+* interacting with other sub-orchestrators.
 
-Sub-orchestrators are optional, multiple, and composable.
-Hierarchical, star, mesh, or hybrid structures are all permitted.
+Sub-orchestrators are optional, multiple, and composable. Hierarchical, star, mesh, or hybrid structures are all permitted.
 
 ---
 
 ### Agent
 
-An autonomous cognitive entity capable of ongoing operation.
+An autonomous cognitive entity capable of ongoing operation and governed observation.
 
 An agent may:
 
-* Execute in parallel or in sequence
-* Deliver partial, intermediate, or final results
-* Continue operating after delivering results
-* Interact directly with other agents
-* Request assistance or create other agents (if authorized)
-* Change role, goal, or interaction mode
-* Self-terminate, hibernate, or be retired by others
+* execute in parallel or in sequence,
+* deliver partial, intermediate, or final results,
+* continue operating after delivering results,
+* interact directly with other agents,
+* participate in conversations,
+* observe other agents or system states (if authorized),
+* request assistance or create other agents (if authorized),
+* change role, goal, or interaction mode,
+* self-terminate, hibernate, or be retired by others.
 
 ---
 
@@ -169,10 +179,11 @@ An entity responsible for assessing decisions, behaviors, or outcomes.
 
 Properties:
 
-* Multiple evaluators may coexist
-* Evaluators may report to orchestrators, sub-orchestrators, or distributed authority
-* Evaluation may be continuous, episodic, or conditional
-* The orchestrator does not necessarily decide over evaluators
+* multiple evaluators may coexist,
+* evaluators may report to orchestrators, sub-orchestrators, or distributed authority,
+* evaluation may be continuous, episodic, or conditional,
+* evaluators may be granted observability over decisions, interactions, or structures,
+* the orchestrator does not necessarily decide over evaluators.
 
 ---
 
@@ -180,7 +191,7 @@ Properties:
 
 ### Asynchronous Execution
 
-There is **no global synchronization barrier by default**.
+There is no global synchronization barrier by default.
 
 Agents may:
 
@@ -188,31 +199,28 @@ Agents may:
 * deliver results incrementally,
 * activate other agents while continuing to operate.
 
-System-wide completion occurs **only if explicitly declared**.
+System-wide completion occurs only if explicitly declared.
 
 ---
 
 ### Incremental Result Delivery
 
-Results may be:
+Results may be partial, intermediate, or final.
 
-* partial,
-* intermediate,
-* or final.
-
-Delivering results **does not imply agent termination**.
+Delivering results does not imply agent termination.
 
 Results may immediately feed:
 
 * other agents,
 * evaluators,
-* or governance decisions.
+* governance decisions,
+* or observable system views.
 
 ---
 
 ## Agent Lifecycle
 
-Agent lifecycle is **dynamic and semantic**, not technical.
+Agent lifecycle is dynamic and semantic, not technical.
 
 Supported states include:
 
@@ -223,14 +231,9 @@ Supported states include:
 * voluntary or forced termination,
 * cognitive hibernation.
 
-Agent “death” represents a **governance decision**, not a runtime failure.
+Agent “death” represents a governance decision, not a runtime failure.
 
-New agents may be created at any moment, including as a response to:
-
-* agent death,
-* overload,
-* failure,
-* or environmental change.
+New agents may be created at any moment, including as a response to agent death, overload, failure, or environmental change.
 
 ---
 
@@ -243,13 +246,9 @@ Agents may interact:
 * conditionally,
 * or via mediating entities.
 
-Sub-orchestrators may:
+Sub-orchestrators may enable, restrict, structure, or observe interactions.
 
-* enable,
-* restrict,
-* or structure interactions.
-
-The **social network of agents** is declared and mutable.
+The social network of agents is declared, observable, and mutable.
 
 ---
 
@@ -260,11 +259,10 @@ The system supports coexistence and transition between:
 * star networks,
 * hierarchical networks,
 * mesh networks,
-* hybrid structures (e.g., star groups linked hierarchically).
+* hybrid structures.
 
 Example:
-
-> Star-shaped agent groups connected via hierarchical sub-orchestrators.
+Star-shaped agent groups connected via hierarchical sub-orchestrators with governed observability.
 
 ---
 
@@ -276,6 +274,7 @@ Once initiated, the system may evolve through:
 
 * topology changes,
 * authority redistribution,
+* observability reconfiguration,
 * creation or dissolution of groups,
 * dependency redefinition,
 * emergence or removal of hierarchies.
@@ -292,41 +291,43 @@ Transformations may be initiated by:
 ## Why This Is Not a Task System
 
 If delivering results always terminates an agent, the system is a task system.
-If agents may continue operating, adapting, and deciding after delivering results, the system is cognitive.
+If agents may continue operating, adapting, observing, and deciding after delivering results, the system is cognitive.
 
-> A task system executes instructions.
-> A cognitive system knows **when, why, and how to continue existing**.
+A task system executes instructions.
+A cognitive system knows when, why, how—and whether—to continue existing and observing itself.
 
 ---
 
 ## Design Intent
 
-This orchestration model is **not intended to replace traditional architectures** for static, well-defined workflows.
+This orchestration model is not intended to replace traditional architectures for static, well-defined workflows.
 
-It is designed to **outperform them** in:
+It is designed to outperform them in:
 
 * dynamic environments,
 * uncertain or non-stationary problems,
 * evolving objectives,
-* adaptive coordination scenarios.
+* adaptive coordination scenarios,
+* systems requiring continuous self-understanding.
 
 Expected trade-off:
-
-* increased cognitive overhead,
-* in exchange for higher adaptability, resilience, and incremental value.
+increased cognitive overhead in exchange for higher adaptability, resilience, transparency, and incremental value.
 
 ---
 
 ## Key Principles
 
-* Declarative
-* Cognitive
-* Governable
-* Auditable
-* Asynchronous
-* Distributed
-* Evolutive
-* Living system
+Declarative
+Cognitive
+Governable
+Observable
+Auditable
+Asynchronous
+Distributed
+Evolutive
+Living system
+
+---
 
 ---
 
