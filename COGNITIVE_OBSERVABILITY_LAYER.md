@@ -1,6 +1,6 @@
-# Cognitive Observability Layer
+# Subskill Cognitive Observability Layer
 
-*A Monitoring & Governance Subskill for Cognitive Multi-Agent Systems*
+*A Monitoring & Governance Subskill for Cognitive Multi-Agent Orchestration Systems*
 
 ## 1. Overview
 
