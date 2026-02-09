@@ -34,6 +34,15 @@ The system adapts, governs itself, and continues operating beyond results.
 
 ## Core Concepts
 
+
+### Cognitive Orchestration Model
+
+A **Cognitive Orchestration Model** is a declarative framework for coordinating autonomous agents as persistent cognitive entities, where system behavior is governed by explicit rules of authority, interaction, and evaluation rather than predefined execution flows.
+
+The model enables multi-agent systems to operate asynchronously, deliver incremental results, and evolve their internal structure and governance at runtime, while remaining auditable, governable, and independent of code-level orchestration mechanisms.
+
+
+
 ### Cognitive Orchestration Language
 
 A **natural-language orchestration language** that specifies:
