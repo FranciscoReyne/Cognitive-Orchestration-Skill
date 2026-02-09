@@ -1,4 +1,4 @@
-# Subskill Cognitive Observability Layer
+# Subskill Cognitive Observability Layer (COL)
 
 *A Monitoring & Governance Subskill for Cognitive Multi-Agent Orchestration Systems*
 
